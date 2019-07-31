@@ -1,0 +1,13 @@
+{
+    "name": "tfarias/google-sheets-from-php",
+    "authors": [
+        {
+            "name": "tofarias",
+            "email": "tiago.farias.poa@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.2",
+        "vlucas/phpdotenv": "^3.4"
+    }
+}
