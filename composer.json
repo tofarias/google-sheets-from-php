@@ -6,6 +6,14 @@
             "email": "tiago.farias.poa@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "GoogleSheet\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
     "require": {
         "google/apiclient": "^2.2",
         "vlucas/phpdotenv": "^3.4"
